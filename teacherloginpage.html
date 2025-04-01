@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Page - Library Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Teacher Dashboard</h1>
+
+            <h2>Assign a Book</h2>
+            <form id="assignBookForm">
+                <label for="assignBookTitle">Book Title:</label>
+                <input type="text" id="assignBookTitle" name="assignBookTitle" required>
+                
+                <label for="assignStudentId">Student ID:</label>
+                <input type="text" id="assignStudentId" name="assignStudentId" required>
+                
+                <button type="submit">Assign Book</button>
+            </form>
+
+            <h2>Update Book Information</h2>
+            <form id="updateBookForm">
+                <label for="updateBookId">Book ID:</label>
+                <input type="text" id="updateBookId" name="updateBookId" required>
+                
+                <label for="updateBookTitle">New Book Title:</label>
+                <input type="text" id="updateBookTitle" name="updateBookTitle" required>
+                
+                <button type="submit">Update Book</button>
+            </form>
+
+            <h2>Delete a Book</h2>
+            <form id="deleteBookForm">
+                <label for="deleteBookId">Book ID:</label>
+                <input type="text" id="deleteBookId" name="deleteBookId" required>
+                
+                <button type="submit">Delete Book</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

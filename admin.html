@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Page | Photon</title>
+</head>
+
+<body>
+
+
+    <div class="container" id="container">
+
+        <div class="form-container sign-up">
+            <form>
+                <h1>Admin Page</h1><br><br>
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                </div>
+                <span>or use your email for registeration</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Admin Page</h1><br><br>
+                <h2>Sign In</h2>
+                <div class="social-icons">
+                    <a href="index.html" class="icon"><img src="user.png" alt="Girl in a jacket" style="width:30px;height:30px;"></a>
+                    <a href="student.html" class="icon"><img src="student.png" alt="Girl in a jacket" style="width:30px;height:30px;"></a>
+                    <a href="techer.html" class="icon"><img src="teacher.png" alt="Girl in a jacket" style="width:30px;height:30px;"></a>
+                    <a href="admin.html" class="icon"><img src="admin.jpg" alt="Girl in a jacket" style="width:30px;height:30px;"></a>
+                </div>
+                <span>or use your email password</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#">Forget Your Password?</a>
+                <button><a href="adminloginpage.html">Sign In</a></button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back!</h1>
+                    <p>Enter your personal details to use all of site features</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Register with your personal details to use all of site features</p>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

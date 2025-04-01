@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Page - Library Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Student Dashboard</h1>
+            <h2>Assign a Book</h2>
+            <form id="assignBookForm">
+                <label for="bookTitle">Book Title:</label>
+                <input type="text" id="bookTitle" name="bookTitle" required>
+                
+                <label for="studentId">Student ID:</label>
+                <input type="text" id="studentId" name="studentId" required>
+                
+                <button type="submit">Assign Book</button>
+            </form>
+
+            <h2>Read a Book</h2>
+            <form id="readBookForm">
+                <label for="bookToRead">Select a Book:</label>
+                <select id="bookToRead" name="bookToRead" required>
+                    <option value="book1">Book 1</option>
+                    <option value="book2">Book 2</option>
+                    <option value="book3">Book 3</option>
+                </select>
+                
+                <button type="submit">Read Book</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

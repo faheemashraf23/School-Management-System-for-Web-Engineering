@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page - Library Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Admin Dashboard</h1>
+
+            <h2>Insert a Book</h2>
+            <form id="insertBookForm">
+                <label for="insertBookTitle">Book Title:</label>
+                <input type="text" id="insertBookTitle" name="insertBookTitle" required>
+                
+                <label for="insertAuthor">Author:</label>
+                <input type="text" id="insertAuthor" name="insertAuthor" required>
+                
+                <button type="submit">Insert Book</button>
+            </form>
+
+            <h2>Update Book Information</h2>
+            <form id="updateBookForm">
+                <label for="updateBookId">Book ID:</label>
+                <input type="text" id="updateBookId" name="updateBookId" required>
+                
+                <label for="updateBookTitle">New Book Title:</label>
+                <input type="text" id="updateBookTitle" name="updateBookTitle" required>
+                
+                <label for="updateAuthor">New Author:</label>
+                <input type="text" id="updateAuthor" name="updateAuthor" required>
+                
+                <button type="submit">Update Book</button>
+            </form>
+
+            <h2>Delete a Book</h2>
+            <form id="deleteBookForm">
+                <label for="deleteBookId">Book ID:</label>
+                <input type="text" id="deleteBookId" name="deleteBookId" required>
+                
+                <button type="submit">Delete Book</button>
+            </form>
+
+            <h2>Open Section for Books</h2>
+            <form id="openSectionForm">
+                <label for="sectionName">Section Name:</label>
+                <input type="text" id="sectionName" name="sectionName" required>
+                
+                <button type="submit">Open Section</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
